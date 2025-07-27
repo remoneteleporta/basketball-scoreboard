@@ -46,7 +46,7 @@ function updateLead()
 if (hmpoint > gspoint) {
       leadMessage.textContent = "Home Leads";
     } else if (gspoint > hmpoint) {
-      leadMessage.textContent = "Guest Leads";
+      leadMessage.textContent = "Away Leads";
     } else {
       leadMessage.textContent = "Tied";
     }
