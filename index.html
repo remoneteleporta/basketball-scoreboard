@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="scorecard">
+                     <span id="homescore">0</span>
+                </div>
+                <div>
+                <button class="point-btn" onclick="home1point()">+1</button>
+                <button class="point-btn" onclick="home2point()">+2</button>
+                <button class="point-btn" onclick="home3point()">+3</button>
+                </div>
+            </div>
+            <div id="control">
+                <span class="timer" id="countdown">40:00</span>
+                <div>
+                <button class="set-btn" onclick="starttime()">Start</button>
+                <button class="set-btn" onclick="resetall()">Reset</button>
+                </div>
+                <div class="lead-display" id="leadMessage">Game On</div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="scorecard">
+                     <span id="guestscore">0</span>
+                </div>
+                <div>
+                <button class="point-btn" onclick="guest1point()">+1</button>
+                <button class="point-btn" onclick="guest2point()">+2</button>
+                <button class="point-btn" onclick="guest3point()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
